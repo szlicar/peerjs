@@ -12,6 +12,7 @@ export interface PeerJSOption {
 	config?: RTCConfiguration;
 	debug?: number;
 	referrerPolicy?: ReferrerPolicy;
+	headers?: [string, string][] | Record<string, string> | Headers;
 }
 
 export interface PeerConnectOption {
